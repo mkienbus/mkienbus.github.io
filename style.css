@@ -1,11 +1,7 @@
-.name{
+#name{
     color: blue;
 }
 
-.projects{
-    color: red;
-}
-
-.education{
-    color: green;
+.header{
+    font-family: sans-serif;
 }
