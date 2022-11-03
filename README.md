@@ -1,0 +1,1 @@
+A static webpage to convey who I am as a person and as a developer
