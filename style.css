@@ -3,8 +3,20 @@
     color: #383b3e;
 }
 
+a{
+    text-decoration: none;
+}
+
 .header{
     font-family: courier;
+}
+
+.navbar{
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 20px;
 }
 
 .information{
