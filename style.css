@@ -30,3 +30,8 @@ a{
     border: 3px solid black;
     padding: 20px;
   }
+
+  .video{
+    display: block;
+    margin: auto;
+  }
