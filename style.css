@@ -25,7 +25,8 @@ a{
 
 .information{
     background-color: rgb(210,210,210);
-    margin: 5px 17% 5px 17%;
+    width: 600px;
+    height: 345px;
     border-radius: 25px;
     border: 3px solid black;
     padding: 20px;
