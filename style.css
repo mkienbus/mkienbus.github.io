@@ -27,8 +27,6 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid black;
-    background-color: aliceblue;
 }
 
 .project-container{
