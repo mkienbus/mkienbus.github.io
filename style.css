@@ -30,7 +30,7 @@ a{
 }
 
 .project-container{
-    background-color: rgb(210,210,210);
+    background-color: rgba(210,210,210,0.4);
     width: 600px;
     height: auto;
     margin-top: 10px;
@@ -39,10 +39,6 @@ a{
     border: 3px solid black;
     padding: 20px;
   }
-
-.project-container::after{
-    opacity: 0.4;
-}
 
 .project-header{
     text-align: center;
