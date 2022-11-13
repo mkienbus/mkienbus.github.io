@@ -44,6 +44,10 @@ a{
     text-align: center;
 }
 
+.body-text{
+    font-family: courier;
+}
+
   #video{
     display: block;
     margin: auto;
