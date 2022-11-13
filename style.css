@@ -40,6 +40,10 @@ a{
     padding: 20px;
   }
 
+.project-container::after{
+    opacity: 0.4;
+}
+
 .project-header{
     text-align: center;
 }
