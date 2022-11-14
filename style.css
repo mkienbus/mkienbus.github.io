@@ -16,6 +16,8 @@ a{
 }
 
 .navbar{
+    font-family: courier;
+    font-weight: bold;
     margin: auto;
     text-align: center;
     border-radius: 25px;
