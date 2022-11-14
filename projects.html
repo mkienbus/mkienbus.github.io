@@ -17,37 +17,42 @@
     <div id = "projects-parent-container">
         <div class = "project-container body-text">
                 <h3 class = "project-header">Rezy</h3>
+                <!-- add dropdown component with javascript? -->
                 <br>
                     <p>
                         An in progress  web application to make reservations and save favorite restaurants
-                        <ul>
-                            <li>
-                                React.js front end, Ruby on Rails back end, and PostgreSQL database
-                            </li>
-                            <li>
-                                Utilized React  to create a user friendly front end with MUI integration
-                            </li>
-                            <li>
-                                Utilized Ruby on Rails to implement user authorization, validation, hash passwords,  create sessions, and manage routing
-                            </li>
-                            <li>
-                                Implemented a  relational database with PostgreSQL
-                            </li>
-                        </ul>
+                        <button onClick = "handleClick()" id = "rezy-button">Show more</button>
+                        <span id = "more">
+                            <ul>
+                                <li>
+                                    React.js front end, Ruby on Rails back end, and PostgreSQL database
+                                </li>
+                                <li>
+                                    Utilized React  to create a user friendly front end with MUI integration
+                                </li>
+                                <li>
+                                    Utilized Ruby on Rails to implement user authorization, validation, hash passwords,  create sessions, and manage routing
+                                </li>
+                                <li>
+                                    Implemented a  relational database with PostgreSQL
+                                </li>
+                            </ul>
                     </p>
-                <br>
-                Link to code on <a href = "https://github.com/stars/mkienbus/lists/rezy" target = "_blank">GitHub</a>
-                <br>
-                Video demo of project:
-                <br>
-                <!-- re-record demo video under correct youtube channel and only demonstrate app, don't go through code -->
-                <iframe id = "video" width="560" height="315" src="https://www.youtube.com/embed/rgdwyvNF43o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <br>
+                        Link to code on <a href = "https://github.com/stars/mkienbus/lists/rezy" target = "_blank">GitHub</a>
+                        <br>
+                        Video demo of project:
+                        <br>
+                        <!-- re-record demo video under correct youtube channel and only demonstrate app, don't go through code -->
+                        <iframe id = "video" width="560" height="315" src="https://www.youtube.com/embed/rgdwyvNF43o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </span>
         </div>
         <div class = "project-container body-text">
                 <h3 class = "project-header">Restaurant Tracker</h3>
+                <!-- add dropdown component with javascript? -->
                 <br>
                     <p>
-                        A web application to track restaurants you add, and favorites
+                        A web application to track restaurants and favorites you select
                         <ul>
                             <li>
                                 React.js front end, Ruby on Rails back end, and PostgreSQL database
@@ -81,5 +86,7 @@
             </p>
         </div>
     </div>
+
+    <script type = 'text/javascript' src = "./javascript/projects.js"></script>
 </body>
 </html>
