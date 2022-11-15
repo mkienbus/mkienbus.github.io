@@ -64,7 +64,8 @@ a{
     background-color: rgba(210,210,210,0.4);
     width: auto;
     height: auto;
-    margin: auto;
+    position: absolute;
+    left: 200px;
     border-radius: 25px;
     border: 3px solid black;
     padding: 20px;
