@@ -1,3 +1,4 @@
+/* INDEX/HOME */
 #name{
     font-family: courier;
     color: #383b3e;
@@ -16,6 +17,7 @@ a{
     font-family: courier;
 }
 
+/* NAVBAR */
 .navbar{
     font-family: courier;
     font-weight: bold;
@@ -26,6 +28,7 @@ a{
     padding: 10px;
 }
 
+/* PROJECTS */
 .contentscontainer{
     position: absolute;
     left: 245px;
@@ -66,6 +69,7 @@ a{
     display: none;
 }
 
+/* CONTACTME */
 .formcontainer{
     background-color: rgba(210,210,210,0.4);
     width: auto;
@@ -75,4 +79,12 @@ a{
     border-radius: 25px;
     border: 3px solid black;
     padding: 20px;
+}
+
+/* EDUCATION */
+/*original dimensions: 792 × 612 */
+.certification{
+    width: 550px;
+    height: auto;
+    border-radius: 25px;
 }
