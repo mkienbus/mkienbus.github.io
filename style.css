@@ -25,13 +25,18 @@ a{
     padding: 10px;
 }
 
-#projects-parent-container{
+.contentscontainer{
+    position: absolute;
+    left: 100px;
+}
+
+#projectsparentcontainer{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.project-container{
+.projectcontainer{
     background-color: rgba(210,210,210,0.4);
     width: 600px;
     height: auto;
@@ -42,11 +47,11 @@ a{
     padding: 20px;
   }
 
-.project-header{
+.projectheader{
     text-align: center;
 }
 
-.body-text{
+.bodytext{
     font-family: courier;
     font-weight: bold;
 }
