@@ -13,13 +13,13 @@
             <a href = "./index.html">HOME</a> | <a href = "aboutme.html">ABOUT ME</a> | <a href ="./education.html">EDUCATION</a> | <a href = "./projects.html">PROJECTS</a> | <a href = "contactme.html">CONTACT ME</a>
         </div>
         <h1 class = "header">CONTACT ME</h1>
-        <div id = "about-container">
+        <div id = "aboutcontainer">
             <p class = "information">My information</p>
         </div>
-        <div id = "contact-form">
+        <div class = "formcontainer">
             <!-- set up secure email function -->
             <p>Contact me:</p>
-            <form>
+            <form id = "contactform">
                 <label for = "fname">First name:</label>
                 <br>
                 <input type = "text" id = "fname" name = "fname"/>
@@ -36,10 +36,10 @@
                 <br>
                 <textarea id = "message" name = "message" rows = "5" cols ="50" style = "opacity: 0.6;"></textarea>
                 <br>
-                <input type = "submit"/>
+                <input type = "submit" value = "Email me"/>
             </form>
         </div>
         
-        <!-- <script src="index.js" async defer></script> -->
+        <script src="./javascript/contactme.js" async defer></script>
     </body>
 </html>
