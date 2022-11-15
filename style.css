@@ -51,7 +51,11 @@ a{
     font-weight: bold;
 }
 
-  #video{
+#video{
     display: block;
     margin: auto;
-  }
+}
+
+#more{
+    display: none;
+}
