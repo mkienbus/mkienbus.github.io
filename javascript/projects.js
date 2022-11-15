@@ -19,3 +19,5 @@ function handleClick() {
     moreText.style.display = "inline";
   }
 }
+
+// resource: https://brownsurfing.com/web-development/show-more-show-less-button/
