@@ -15,6 +15,12 @@ a{
 
 .header{
     font-family: courier;
+    font-weight: bold;
+}
+
+.bodytext{
+    font-family: courier;
+    font-weight: bold;
 }
 
 /* NAVBAR */
@@ -53,11 +59,6 @@ a{
 
 .projectheader{
     text-align: center;
-}
-
-.bodytext{
-    font-family: courier;
-    font-weight: bold;
 }
 
 #video{
