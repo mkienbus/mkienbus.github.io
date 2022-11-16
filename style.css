@@ -64,6 +64,7 @@ a{
 #video{
     display: block;
     margin: auto;
+    border-radius: 25px;
 }
 
 #more{
