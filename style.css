@@ -1,6 +1,6 @@
 /* CSS can use refactoring, especially headers */
 
-/* INDEX/HOME */
+/* INDEX/HOME/GLOBAL */
 #name{
     font-family: courier;
     color: #383b3e;
@@ -89,8 +89,8 @@ a{
     background-color: rgba(210,210,210,0.4);
     width: 600px;
     height: auto;
-    position: absolute;
-    left: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 25px;
     border: 3px solid black;
     padding: 20px;
@@ -99,18 +99,6 @@ a{
   .aboutheader{
     text-align: center;
   }
-
-/* CONTACTME */
-.formcontainer{
-    background-color: rgba(210,210,210,0.4);
-    width: auto;
-    height: auto;
-    position: absolute;
-    left: 200px;
-    border-radius: 25px;
-    border: 3px solid black;
-    padding: 20px;
-}
 
 /* EDUCATION */
 /*original dimensions: 792 × 612 */
@@ -147,3 +135,15 @@ a{
     display: block;
     margin: auto;
   }
+
+  /* CONTACTME */
+.formcontainer{
+    background-color: rgba(210,210,210,0.4);
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 20px;
+}
