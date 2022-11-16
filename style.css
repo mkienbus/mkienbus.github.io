@@ -23,6 +23,11 @@ a{
     font-weight: bold;
 }
 
+.contentscontainer{
+    position: absolute;
+    left: 245px;
+}
+
 /* NAVBAR */
 .navbar{
     font-family: courier;
@@ -35,11 +40,6 @@ a{
 }
 
 /* PROJECTS */
-.contentscontainer{
-    position: absolute;
-    left: 245px;
-}
-
 #projectsparentcontainer{
     display: flex;
     flex-direction: column;
