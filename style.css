@@ -79,6 +79,12 @@ a{
 }
 
 /*ABOUTME*/
+#aboutparentcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .aboutcontainer{
     background-color: rgba(210,210,210,0.4);
     width: 600px;
