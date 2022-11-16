@@ -112,3 +112,8 @@ a{
     font-family: courier;
     font-weight: bold;
   }
+
+  .educationimage{
+    display: block;
+    margin: auto;
+  }
