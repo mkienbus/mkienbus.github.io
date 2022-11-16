@@ -35,8 +35,8 @@ a{
     left: 245px;
 }
 
-/* NAVBAR - change to id not class*/
-.navbar{
+/* NAVBAR */
+#navbar{
     background-color: rgba(210,210,210,0.4);
     font-family: courier;
     font-weight: bold;
