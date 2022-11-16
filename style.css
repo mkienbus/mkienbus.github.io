@@ -37,6 +37,7 @@ a{
 
 /* NAVBAR - change to id not class*/
 .navbar{
+    background-color: rgba(210,210,210,0.4);
     font-family: courier;
     font-weight: bold;
     margin: auto;
@@ -150,6 +151,7 @@ a{
 
 /* FOOTER */
 #footer{
+    background-color: rgba(210,210,210,0.4);
     font-family: courier;
     font-weight: bold;
     margin: auto;
