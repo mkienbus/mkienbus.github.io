@@ -83,6 +83,11 @@ a{
     padding: 20px;
   }
 
+  .tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
 /* CONTACTME */
 .formcontainer{
     background-color: rgba(210,210,210,0.4);
