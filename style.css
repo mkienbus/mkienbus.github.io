@@ -200,6 +200,10 @@ a:hover{
     font-weight: bold;
 }
 
+.contactcontainer a:hover{
+    color: black;
+}
+
 .center{
     text-align: center;
 }
