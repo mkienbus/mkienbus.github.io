@@ -49,13 +49,8 @@ a{
     color: var(--outrunpurple);
 }
 
-/* .header{
-    font-family: sans-serif;
-    font-weight: bold;
-} */
-
 .bodytext{
-    font-family: sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-weight: bold;
 }
 
@@ -66,8 +61,8 @@ a{
 
 /* NAVBAR */
 #navbar{
-    background-color: rgba(210,210,210,0.4);
-    font-family: sans-serif;
+    background-color: var(--cyberyellow);
+    font-family: 'Orbitron', sans-serif;
     font-weight: bold;
     margin: auto;
     text-align: center;
@@ -127,6 +122,9 @@ a{
 }
 
 .aboutheader{
+    color: var(--outrunpurple);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -190,8 +188,8 @@ a{
 
 /* FOOTER */
 #footer{
-    background-color: rgba(210,210,210,0.4);
-    font-family: sans-serif;
+    background-color: var(--cyberyellow);
+    font-family: 'Orbitron', sans-serif;
     font-weight: bold;
     margin: auto;
     text-align: center;
