@@ -15,7 +15,8 @@
 https://wallpapercave.com/wp/wp2324432.jpg 
 https://wallpaperaccess.com/full/1659875.jpg */
 html{
-    background-image: url("https://wallpapercave.com/wp/wp2324432.jpg")
+    background-image: url("./images/retrobiker.jpg")
+}
 
 a{
     text-decoration: none;
