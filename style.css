@@ -5,12 +5,13 @@
 
 *{
     font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
 }
 
 :root{
     --cyberyellow: #fdf800;
-    --cyberblue: #6ECBF5;
-    --outrunpurple: #F222FF;
+    --cyberblue: rgba(110, 203, 245, 0.6);
+    --outrunpurple: #030303;
     --alphacyberyellow: rgba(253, 248, 0, 0.6)
 }
 /* COLORS 
@@ -175,7 +176,7 @@ a{
 }
 
 .formcontainer, .contactcontainer{
-    background-color: rgba(210,210,210,0.4);
+    background-color: var(--cyberyellow);
     width: 600px;
     height: auto;
     margin-top: 10px;
