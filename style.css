@@ -17,6 +17,7 @@ https://wallpaperaccess.com/full/1659875.jpg */
 html{
     background-image: url("./images/retrobiker.jpg");
     background-size: contain;
+    background-repeat: no-repeat;
     /* background-position: center center; */
 }
 
