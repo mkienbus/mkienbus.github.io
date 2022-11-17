@@ -9,10 +9,14 @@
 
 :root{
     --cyberyellow: #fdf800;
+    --cyberblue: #6ECBF5;
     --outrunpurple: #F222FF;
+    --alphacyberyellow: rgba(253, 248, 0, 0.6)
 }
-/* FONT COLORS 
+/* COLORS 
 cyberpunk yellow: #fdf800
+    -rgb conversion: rgb(253, 248, 0)
+cyberpunk blue: #6ECBF5
 outrun purple: #F222FF
 grey: #383b3e
 */
@@ -61,7 +65,7 @@ a{
 
 /* NAVBAR */
 #navbar{
-    background-color: var(--cyberyellow);
+    background-color: var(--cyberblue);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
     margin: auto;
@@ -111,7 +115,7 @@ a{
 }
 
 .aboutcontainer{
-    background-color: rgba(210,210,210,0.4);
+    background-color: var(--alphacyberyellow);
     width: 600px;
     height: auto;
     margin-top: 10px;
@@ -125,7 +129,6 @@ a{
     color: var(--outrunpurple);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    text-align: center;
 }
 
 /* EDUCATION */
@@ -188,7 +191,7 @@ a{
 
 /* FOOTER */
 #footer{
-    background-color: var(--cyberyellow);
+    background-color: var(--cyberblue);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
     margin: auto;
