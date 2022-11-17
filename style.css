@@ -46,7 +46,7 @@ html{
 
 a{
     text-decoration: none;
-    color: #383b3e;
+    color: var(--outrunpurple);
 }
 
 /* .header{
