@@ -3,6 +3,10 @@
 /* INDEX/HOME/GLOBAL */
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
 
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+
 :root{
     --cyberyellow: #fdf800;
     --outrunpurple: #F222FF;
