@@ -1,9 +1,27 @@
 /* CSS can use refactoring, especially headers */
 
 /* INDEX/HOME/GLOBAL */
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
+:root{
+    --cyberyellow: #fdf800;
+    --outrunpurple: #F222FF;
+}
+/* FONT COLORS 
+cyberpunk yellow: #fdf800
+outrun purple: #F222FF
+grey: #383b3e
+*/
+
 #name{
-    font-family: sans-serif;
-    color: #383b3e;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--outrunpurple);
+}
+
+.landingheader{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: var(--outrunpurple);
 }
 
 #tab {
@@ -27,10 +45,10 @@ a{
     color: #383b3e;
 }
 
-.header{
+/* .header{
     font-family: sans-serif;
     font-weight: bold;
-}
+} */
 
 .bodytext{
     font-family: sans-serif;
