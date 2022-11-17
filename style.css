@@ -10,9 +10,9 @@
 
 :root{
     --cyberyellow: #fdf800;
-    --cyberblue: rgba(110, 203, 245, 0.6);
+    --cyberblue: rgba(110, 203, 245, 0.8);
     --outrunpurple: #F222FF;
-    --alphacyberyellow: rgba(253, 248, 0, 0.6)
+    --alphacyberyellow: rgba(253, 248, 0, 0.8)
 }
 /* COLORS 
 cyberpunk yellow: #fdf800
