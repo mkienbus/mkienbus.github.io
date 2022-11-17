@@ -45,7 +45,6 @@ html{
     background-size: cover;
     height: 100%;
     overflow: hidden;
-    /* background-position: center center; */
 }
 
 a{
@@ -70,38 +69,6 @@ a{
     padding: 10px;
 }
 
-/* PROJECTS */
-#projectsparentcontainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.projectcontainer{
-    background-color: rgba(210,210,210,0.4);
-    width: 600px;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    border: 3px solid black;
-    padding: 20px;
-  }
-
-.projectheader{
-    text-align: center;
-}
-
-#video{
-    display: block;
-    margin: auto;
-    border-radius: 25px;
-}
-
-#more{
-    display: none;
-}
-
 /*ABOUTME*/
 #aboutparentcontainer{
     display: flex;
@@ -124,6 +91,40 @@ a{
     color: var(--outrunpurple);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
+}
+
+/* PROJECTS */
+#projectsparentcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectcontainer{
+    background-color: var(--alphacyberyellow);
+    width: 600px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 20px;
+  }
+
+.projectheader{
+    color: var(--outrunpurple);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
+#video{
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+}
+
+#more{
+    display: none;
 }
 
 /* EDUCATION */
