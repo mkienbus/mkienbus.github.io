@@ -126,6 +126,10 @@ a:hover{
     font-weight: bold;
 }
 
+.projectheader a:hover{
+    color: black;
+}
+
 #video{
     display: block;
     margin: auto;
