@@ -11,9 +11,11 @@
     margin-left: 40px;
 }
 
+/* BACKGROUNDS
+https://wallpapercave.com/wp/wp2324432.jpg 
+https://wallpaperaccess.com/full/1659875.jpg */
 html{
-    background-image: url("https://wallpaperaccess.com/full/1659875.jpg");
-}
+    background-image: url("https://wallpapercave.com/wp/wp2324432.jpg")
 
 a{
     text-decoration: none;
