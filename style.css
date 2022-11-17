@@ -93,6 +93,10 @@ a{
     font-weight: bold;
 }
 
+.center{
+    text-align: center;
+}
+
 /* PROJECTS */
 #projectsparentcontainer{
     display: flex;
@@ -153,8 +157,8 @@ a{
 }
 
 .educationheader{
-    text-align: center;
-    font-family: sans-serif;
+    color: var(--outrunpurple);
+    font-family: 'Orbitron', sans-serif;
     font-weight: bold;
 }
 
