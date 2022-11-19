@@ -65,6 +65,7 @@ a:hover{
 .findmecontainer{
     position: absolute;
     left: 245px;
+    top: 600px;
 }
 
 /* NAVBAR */
