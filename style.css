@@ -62,6 +62,11 @@ a:hover{
     left: 245px;
 }
 
+.findmecontainer{
+    position: absolute;
+    left: 245px;
+}
+
 /* NAVBAR */
 #navbar{
     background-color: var(--cyberblue);
