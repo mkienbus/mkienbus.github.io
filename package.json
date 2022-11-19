@@ -1,0 +1,23 @@
+{
+  "name": "mkienbus.github.io",
+  "version": "1.0.0",
+  "description": "index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkienbus/mkienbus.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Michael Kienbusch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkienbus/mkienbus.github.io/issues"
+  },
+  "homepage": "https://github.com/mkienbus/mkienbus.github.io#readme"
+}
