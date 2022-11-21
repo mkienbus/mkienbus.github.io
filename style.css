@@ -68,10 +68,14 @@ a:hover{
     top: 325px;
 }
 
-#findmecontainer{
+.findmechild{
+    font-size: 1.17em;
+}
+
+/* #findmecontainer{
     position: absolute;
     left: 238px;
-}
+} */
 
 /* NAVBAR */
 #navbar{
