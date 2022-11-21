@@ -68,7 +68,7 @@ a:hover{
     top: 325px;
 }
 
-.findemecontainer{
+.landingheader > .findemecontainer{
     position: absolute;
     left: 238px;
 }
