@@ -62,10 +62,15 @@ a:hover{
     left: 245px;
 }
 
-.findmecontainer{
+.findmeparentcontainer{
+    position: absolute;
+    left: 10px;
+    top: 325px;
+}
+
+.findemecontainer{
     position: absolute;
     left: 245px;
-    top: 1000px;
 }
 
 /* NAVBAR */
