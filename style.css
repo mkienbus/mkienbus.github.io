@@ -68,7 +68,7 @@ a:hover{
     top: 325px;
 }
 
-.findmeparentcontainer > .findemecontainer{
+#findmecontainer{
     position: absolute;
     left: 238px;
 }
