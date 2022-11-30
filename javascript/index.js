@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded", alert("This webpage is a current work in progress as of 11/21/2022, and is best viewed on desktop"));
+document.addEventListener("DOMContentLoaded", alert("This webpage is a current work in progress as of 11/29/2022, and is best viewed on desktop"));
