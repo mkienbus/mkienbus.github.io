@@ -62,6 +62,14 @@ a:hover{
     left: 245px;
 }
 
+#profile{
+    border-radius: 25px;
+    position: absolute;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+}
+
 .findmeparentcontainer{
     position: absolute;
     left: 8px;
