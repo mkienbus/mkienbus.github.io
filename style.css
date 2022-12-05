@@ -13,6 +13,7 @@
     --cyberblue: rgba(110, 203, 245, 0.8);
     --outrunpurple: #F222FF;
     --alphacyberyellow: rgba(203, 208, 0, 0.7);
+    --cybergreen: rgba(0, 140, 0, 0.6);
 }
 /* COLORS 
 cyberpunk yellow: #fdf800
@@ -20,6 +21,7 @@ cyberpunk yellow: #fdf800
 cyberpunk blue: #6ECBF5
 outrun purple: #F222FF
 grey: #383b3e
+cyber green: rgba(0, 140, 0, 0.6)
 */
 
 #name{
@@ -87,7 +89,7 @@ a:hover{
 
 /* NAVBAR */
 #navbar{
-    background-color: var(--cyberblue);
+    background-color: var(--cybergreen);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
     margin: auto;
@@ -233,7 +235,7 @@ a:hover{
 
 /* FOOTER */
 #footer{
-    background-color: var(--cyberblue);
+    background-color: var(--cybergreen);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
     margin: auto;
