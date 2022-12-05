@@ -118,7 +118,7 @@ a:hover{
 }
 
 .aboutheader{
-    color: var(--outrunpurple);
+    color: black;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
 }
@@ -146,13 +146,13 @@ a:hover{
   }
 
 .projectheader{
-    color: var(--outrunpurple);
+    color: black;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
 }
 
 .projectheader a:hover{
-    color: black;
+    color: blue;
 }
 
 #video{
@@ -191,7 +191,7 @@ a:hover{
 }
 
 .educationheader{
-    color: var(--outrunpurple);
+    color: black;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
 }
@@ -220,7 +220,7 @@ a:hover{
 }
 
 .contactheader{
-    color: var(--outrunpurple);
+    color: black;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
 }
