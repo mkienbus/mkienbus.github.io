@@ -1,5 +1,6 @@
-A static webpage to convey who I am as a person, and what I have built as a student and junior developer
+#### A static webpage to convey who I am as a person, and what I have built as a student and junior developer
 
-Find me on:
-GitHub: www.github.com/mkienbus
+#### Find me on:
+GitHub: www.github.com/mkienbus  
+
 LinkedIn: www.linkedin.com/in/michael-kienbusch
