@@ -143,7 +143,8 @@ a:hover{
 
 .projectcontainer{
     background-color: var(--alphacyberyellow);
-    width: 600px;
+    width: auto;
+    max-width: 600px;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
