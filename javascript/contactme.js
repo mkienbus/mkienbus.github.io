@@ -1,1 +1,0 @@
-// document.addEventListener("submit", document.location.reload(),10)
