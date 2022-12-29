@@ -166,6 +166,7 @@ a:hover{
 #video{
     display: block;
     margin: auto;
+    width: 80%;
     border-radius: 25px;
 }
 
