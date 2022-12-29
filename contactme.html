@@ -18,7 +18,44 @@
         <div id = "contactparentcontainer">
             <div class = "formcontainer">
                 <h2 class = "contactheader">Send me an email:</h2>
-                <form 
+                <form id = "contactform" action = "https://formspree.io/f/mdojbllz" method = "POST">
+                    <label for = "fname">First name:</label>
+                    <br>
+                    <input type = "text" id = "fname" name = "fname"/>
+                    <br>
+                    <br>
+                    <label for = "lname">Last name:</label>
+                    <br>
+                    <input type = "text" id = "lname" name = "lname"/>
+                    <br>
+                    <br>
+                    <label for = "email">Email address:</label>
+                    <br>
+                    <input type = "email" id = "email" name = "_replyto">
+                    <br>
+                    <br>
+                    <label for = "message">Introductory message:</label>
+                    <br>
+                    <textarea id = "message" name = "message" rows = "5" cols ="25"></textarea>
+                    <br>
+                    <input type = "submit" id = "submit" value = "Send" />
+                </form>
+            </div>
+            <div class = "contactcontainer">
+                <h2 class = "center">Find me online</h2>
+                <h3 class = "center"><a target = "_blank" href = "http://www.github.com/mkienbus">GitHub <i class="fa-brands fa-square-github"></i></a></h3>
+                <h3 class = "center"><a  target = "_blank" href = "http://www.linkedin.com/in/michael-kienbusch">LinkedIn <i class="fa-brands fa-linkedin"></i></a></h3>
+            </div>
+        </div>
+        
+        
+        <script src="./javascript/contactme.js" async defer></script>
+    </body>
+</html>
+
+  
+
+            <!-- <form 
                 action="mailto:https://mkienbus@gmail.com" 
                 method="post"
                 subject="{fullName}" 
@@ -47,39 +84,4 @@
                       <input type="submit" onsubmit="onSubmit()" name="submit" value="Send" />
                       <input type="reset" name="reset" value="Clear Form" />
                     </div>
-                  </form>
-            </div>
-            <div class = "contactcontainer">
-                <h2 class = "center">Find me online</h2>
-                <h3 class = "center"><a target = "_blank" href = "http://www.github.com/mkienbus">GitHub <i class="fa-brands fa-square-github"></i></a></h3>
-                <h3 class = "center"><a  target = "_blank" href = "http://www.linkedin.com/in/michael-kienbusch">LinkedIn <i class="fa-brands fa-linkedin"></i></a></h3>
-            </div>
-        </div>
-        
-        
-        <script src="./javascript/contactme.js" async defer></script>
-    </body>
-</html>
-
-  <!-- <form id = "contactform" action = "https://formspree.io/f/mdojbllz" method = "POST">
-    <label for = "fname">First name:</label>
-    <br>
-    <input type = "text" id = "fname" name = "fname"/>
-    <br>
-    <br>
-    <label for = "lname">Last name:</label>
-    <br>
-    <input type = "text" id = "lname" name = "lname"/>
-    <br>
-    <br>
-    <label for = "email">Email address:</label>
-    <br>
-    <input type = "email" id = "email" name = "_replyto">
-    <br>
-    <br>
-    <label for = "message">Introductory message:</label>
-    <br>
-    <textarea id = "message" name = "message" rows = "5" cols ="25"></textarea>
-    <br>
-    <input type = "submit" id = "submit" value = "Send" />
-</form> -->
+            </form> -->
