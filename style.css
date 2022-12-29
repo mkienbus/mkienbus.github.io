@@ -47,7 +47,6 @@ html{
     background: url("./images/retrobiker.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
-    /* overflow: hidden; */
 }
 
 a{
@@ -87,11 +86,6 @@ a:hover{
 .findmechild{
     font-size: 1.17em;
 }
-
-/* #findmecontainer{
-    position: absolute;
-    left: 238px;
-} */
 
 /* NAVBAR */
 #navbar{
@@ -175,7 +169,7 @@ a:hover{
 }
 
 /* EDUCATION */
-/*original dimensions: 792 × 612 */
+/*flatiron original dimensions: 792 × 612 */
 .certificate {
     display: block;
     margin: auto;
@@ -216,7 +210,7 @@ a:hover{
     align-items: center;
 }
 
-formcontainer, .contactcontainer {
+.formcontainer, .contactcontainer {
     background-color: var(--alphacyberyellow);
     max-width: 600px;
     width: 80%;
