@@ -176,8 +176,11 @@ a:hover{
 
 /* EDUCATION */
 /*original dimensions: 792 × 612 */
-.certificate{
-    width: 550px;
+.certificate {
+    display: block;
+    margin: auto;
+    max-width: 550px;
+    width: 80%;
     height: auto;
     border-radius: 25px;
 }
@@ -203,11 +206,6 @@ a:hover{
     color: black;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-}
-
-.educationimage{
-    display: block;
-    margin: auto;
 }
 
   /* CONTACTME */
