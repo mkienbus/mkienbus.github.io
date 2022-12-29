@@ -191,9 +191,10 @@ a:hover{
     align-items: center;
 }
 
-.educationcontainer{
+.educationcontainer {
     background-color: var(--alphacyberyellow);
-    width: 600px;
+    max-width: 600px;
+    width: auto;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
