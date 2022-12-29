@@ -18,28 +18,30 @@
         <div id = "contactparentcontainer">
             <div class = "formcontainer">
                 <h2 class = "contactheader">Send me an email:</h2>
-                <form id = "contactform" action = "https://formspree.io/f/mdojbllz" method = "POST">
-                    <label for = "fname">First name:</label>
-                    <br>
-                    <input type = "text" id = "fname" name = "fname"/>
-                    <br>
-                    <br>
-                    <label for = "lname">Last name:</label>
-                    <br>
-                    <input type = "text" id = "lname" name = "lname"/>
-                    <br>
-                    <br>
-                    <label for = "email">Email address:</label>
-                    <br>
-                    <input type = "email" id = "email" name = "_replyto">
-                    <br>
-                    <br>
-                    <label for = "message">Introductory message:</label>
-                    <br>
-                    <textarea id = "message" name = "message" rows = "5" cols ="25"></textarea>
-                    <br>
-                    <input type = "submit" id = "submit" value = "Send" />
-                </form>
+                <form action="mailto:mkienbus@gmail.com" method="get" enctype="application/x-www-form-urlencoded">
+                    <div>
+                      <label for="fname">First Name:
+                        <input type="text" name="fname" id="fname" />
+                      </label>
+                      <label for="lname">Last Name:
+                        <input type="text" name="lname" id="lname" />
+                      </label>
+                    </div>
+                    <div>
+                      <label for="email">Email:
+                        <input type="text" name="email" id="email" />
+                      </label>
+                    </div>
+                    <div>
+                      <label>Message:</label>
+                      <br />
+                      <textarea name="message" rows="12" cols="35">Send a message to me.</textarea>
+                    </div>
+                    <div>
+                      <input type="submit" name="submit" value="Send" />
+                      <input type="reset" name="reset" value="Clear Form" />
+                    </div>
+                  </form>
             </div>
             <div class = "contactcontainer">
                 <h2 class = "center">Find me online</h2>
@@ -52,3 +54,26 @@
         <script src="./javascript/contactme.js" async defer></script>
     </body>
 </html>
+
+  <!-- <form id = "contactform" action = "https://formspree.io/f/mdojbllz" method = "POST">
+    <label for = "fname">First name:</label>
+    <br>
+    <input type = "text" id = "fname" name = "fname"/>
+    <br>
+    <br>
+    <label for = "lname">Last name:</label>
+    <br>
+    <input type = "text" id = "lname" name = "lname"/>
+    <br>
+    <br>
+    <label for = "email">Email address:</label>
+    <br>
+    <input type = "email" id = "email" name = "_replyto">
+    <br>
+    <br>
+    <label for = "message">Introductory message:</label>
+    <br>
+    <textarea id = "message" name = "message" rows = "5" cols ="25"></textarea>
+    <br>
+    <input type = "submit" id = "submit" value = "Send" />
+</form> -->
