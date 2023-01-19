@@ -109,6 +109,23 @@ a:hover{
     font-weight: bold;
 }
 
+.goalscontainer{
+    background-color: var(--alphacyberyellow);
+    width: auto;
+    max-width: 600px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.goalsheader{
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
 .center{
     text-align: center;
 }
