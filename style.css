@@ -38,11 +38,8 @@ cyber green: rgba(0, 140, 0, 0.6)
     margin-left: 40px;
 }
 
-/* BACKGROUNDS
-https://wallpapercave.com/wp/wp2324432.jpg 
-https://wallpaperaccess.com/full/1659875.jpg */
 html{
-    background: url("./images/retrobiker.jpg") no-repeat center center fixed;
+    background: url("./images/space.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
