@@ -1,80 +1,81 @@
-/* INDEX/HOME/GLOBAL */
+/* ===== IMPORTS & GLOBAL STYLES ===== */
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
 
-*{
-    font-family: 'Orbitron', sans-serif;
-    font-weight: bold;
-}
-
-:root{
+/* CSS Variables */
+:root {
     --cyberyellow: #fdf800;
     --cyberblue: rgba(110, 203, 245, 0.8);
     --outrunpurple: #F222FF;
     --alphacyberyellow: rgba(203, 208, 0, 0.8);
     --cybergreen: rgba(0, 140, 0, 0.6);
 }
-/* COLORS 
-cyberpunk yellow: #fdf800
-    -rgb conversion: rgb(253, 248, 0)
-cyberpunk blue: #6ECBF5
-outrun purple: #F222FF
-grey: #383b3e
-cyber green: rgba(0, 140, 0, 0.6)
-*/
 
-#index-body{
-    margin-left: 15%;
-}
-
-#name{
-    font-family: 'Orbitron', sans-serif;
-    color: var(--outrunpurple);
-}
-
-.landingheader{
+/* Global Reset & Typography */
+* {
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    color: var(--outrunpurple);
 }
 
-#tab {
-    display: inline-block;
-    margin-left: 40px;
-}
-
-html{
+html {
     background: url("./images/space.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
 
-a{
+/* ===== TYPOGRAPHY & LINKS ===== */
+a {
     text-decoration: none;
     color: var(--outrunpurple);
 }
 
-a:hover{
+a:hover {
     color: var(--cyberyellow);
 }
 
-.primaryheader{
+.primaryheader {
     color: var(--outrunpurple);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
 }
 
-#profile{
+.landingheader {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: var(--outrunpurple);
+}
+
+.center {
+    text-align: center;
+}
+
+/* ===== LAYOUT UTILITIES ===== */
+#tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+/* ===== INDEX/HOME PAGE ===== */
+#index-body {
+    margin-left: 15%;
+}
+
+#name {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--outrunpurple);
+}
+
+#profile {
     border-radius: 25px;
     width: 200px;
     height: 200px;
 }
 
-.findmechild{
+.findmechild {
     font-size: 1.17em;
 }
 
-/* NAVBAR */
-#navbar{
+/* ===== NAVIGATION ===== */
+#navbar {
     background-color: var(--cybergreen);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
@@ -85,94 +86,77 @@ a:hover{
     padding: 10px;
 }
 
-/*ABOUTME*/
-#aboutparentcontainer{
+/* ===== CONTAINER COMPONENTS ===== */
+/* Generic container styles */
+.aboutcontainer,
+.goalscontainer,
+.projectcontainer,
+.educationcontainer,
+.formcontainer,
+.contactcontainer {
+    background-color: var(--alphacyberyellow);
+    width: auto;
+    max-width: 600px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+/* ===== ABOUT ME PAGE ===== */
+#aboutparentcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.aboutcontainer{
-    background-color: var(--alphacyberyellow);
-    width: auto;
-    max-width: 600px;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    border: 3px solid black;
-    padding: 20px;
-}
-
-.aboutheader{
+.aboutheader,
+.goalsheader {
     color: black;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
 }
 
-.goalscontainer{
-    background-color: var(--alphacyberyellow);
-    width: auto;
-    max-width: 600px;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    border: 3px solid black;
-    padding: 20px;
-}
-
-.goalsheader{
-    color: black;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: bold;
-}
-.center{
-    text-align: center;
-}
-
-/* PROJECTS */
-#projectsparentcontainer{
+/* ===== PROJECTS PAGE ===== */
+#projectsparentcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.projectcontainer{
-    background-color: var(--alphacyberyellow);
-    width: auto;
-    max-width: 600px;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    border: 3px solid black;
-    padding: 20px;
-  }
-
-.projectheader{
+.projectheader {
     color: black;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
 }
 
-.projectheader a:hover{
+.projectheader a:hover {
     color: blue;
 }
 
-#video{
+#video {
     display: block;
     margin: auto;
     width: 80%;
     border-radius: 25px;
 }
 
-#more{
-    display: none;
+
+
+/* ===== EDUCATION PAGE ===== */
+#educationparentcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* EDUCATION */
-/*flatiron original dimensions: 792 × 612 */
+.educationheader {
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
 .certificate {
     display: block;
     margin: auto;
@@ -182,74 +166,38 @@ a:hover{
     border-radius: 25px;
 }
 
-#educationparentcontainer{
+/* ===== CONTACT PAGE ===== */
+#contactparentcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.educationcontainer {
-    background-color: var(--alphacyberyellow);
-    max-width: 600px;
-    width: auto;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    border: 3px solid black;
-    padding: 20px;
+.formcontainer,
+.contactcontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.educationheader{
+#contactform {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactheader {
     color: black;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
 }
 
-  /* CONTACTME */
-#contactparentcontainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.formcontainer, .contactcontainer {
-    background-color: var(--alphacyberyellow);
-    max-width: 600px;
-    width: 80%;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    border: 3px solid black;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-#contactform{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.contactheader{
-    color: black;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: bold;
-}
-
-.contactcontainer a:hover{
+.contactcontainer a:hover {
     color: black;
 }
 
-.center{
-    text-align: center;
-}
-
-/* FOOTER */
-#footer{
+/* ===== FOOTER ===== */
+#footer {
     background-color: var(--cybergreen);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;

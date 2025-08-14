@@ -1,1 +1,17 @@
-//document.addEventListener("DOMContentLoaded", alert("This webpage is a current work in progress as of 12/29/2022, and is best viewed on desktop"));
+// Portfolio JavaScript - Main functionality
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("Portfolio loaded successfully!");
+    
+    // Add smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+});
